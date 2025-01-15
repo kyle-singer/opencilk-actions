@@ -34,7 +34,7 @@ runs:
   steps:
     - name: Install Ninja
       if: runner.os != 'Linux'
-      uses: llvm/actions/install-ninja@main
+      uses: kyle-singer/llvm-actions/install-ninja@main
     # actions/checkout deletes any existing files in the new git directory,
     # so this needs to either run before ccache-action or it has to use
     # clean: false.
