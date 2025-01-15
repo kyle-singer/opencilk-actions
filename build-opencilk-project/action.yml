@@ -44,7 +44,7 @@ runs:
         repository: OpenCilk/opencilk-project
         path: opencilk
     - name: Setup ccache
-      uses: hendrikmuhs/ccache-action@v1
+      uses: kyle-singer/ccache-action@v1
       with:
         # A full build of llvm, clang, lld, and lldb takes about 250MB
         # of ccache space. There's not much reason to have more than this,
